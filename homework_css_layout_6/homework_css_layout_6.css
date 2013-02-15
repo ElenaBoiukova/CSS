@@ -1,0 +1,90 @@
+*{padding:0; margin:0;}
+
+body{
+background-color:black;
+font-family:Arial, Trebuchet MS, tahoma, Verdana,Sans-Serif;
+}
+
+	section{
+	width:687px;
+	height:364px;
+	border: 1px solid 99BEC7;
+	box-shadow:0px 0px 2px 1px #618C98;
+	border-radius:5px;
+	margin: 100px auto;
+	background-color:#1E3741;
+	}
+	
+		ul{
+		list-style-type:none;
+		}
+			.main {
+			float:left;
+			text-decoration:none;
+			color:#93ACB6;
+			font-size:13px;
+			font-weight:bold;
+			border: 1px solid #324952;
+			height:23px;
+			background-color:#4B5F67;
+			margin:8px 1px 11px 0px;
+			padding: 9px 13px 0px 13px;
+			}
+			
+			article{ 
+			   clear: both; 
+			    }
+						
+				.news{float:left;}
+				
+				.side {
+				text-decoration:none;
+				color:#A5AFB3;
+				font-size:15px;
+				font-weight:bold;
+				width:264px;
+				display:inline-block;
+				padding:8px 0px 9px 10px;
+				border-top:1px solid #3A4F58;
+				border-bottom:1px solid #3A4F58;
+				}
+				
+				.side:last-child{
+				border-bottom:none;
+				}
+				
+				.side:hover{
+				background-color:#00968C;
+				color:white;
+				}
+				
+				.side:active{
+				background-color:#00968C;
+				color:white;
+				}
+				
+				.main:hover{
+				text-decoration:underline;
+				}
+				
+				.main:active{
+				background-color:#1E3741;
+				border:none;
+				text-decoration:none;
+				}
+				
+				#current{
+				background-color:#1E3741;
+				border:none;
+				text-decoration:none;
+				color:white;
+				}
+				
+				#selected{
+				background-color:#00968C;
+				color:white;
+				}
+				
+								
+					
+				
